@@ -38,6 +38,16 @@ func main() {
 
 	fmt.Println(book1, book2)
 	printBook(&book1)
+
+	var nums = []int{1, 2, 3}
+	for id, num := range nums {
+		println(id, num)
+	}
+
+	var countryCapitalMap = map[string]string{"France": "Paris", "Italy": "Rome", "Japan": "Tokyo", "India": "New Delhi"}
+	for country := range countryCapitalMap {
+		println(countryCapitalMap[country])
+	}
 }
 
 func printBook(book *Book) {
