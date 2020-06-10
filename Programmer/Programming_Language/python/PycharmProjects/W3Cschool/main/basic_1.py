@@ -50,3 +50,50 @@ queue.append("Graham")
 print(queue.popleft())
 print(queue.pop())
 print(queue)
+
+vec = [2, 4, 6]
+new_vec = [[x, x ** 2] for x in vec]
+print(new_vec, type(new_vec))
+
+# Tuples
+v = (1, 2, 3, 4, 'hello')
+u = v, 5, 6, 7, 'world'
+print(u)
+
+# set
+basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+print('apple' in basket)
+
+a = set('abracadabra')
+b = set('alacazam')
+print(a)
+print(b)
+
+print(a - b)
+
+# dict
+tel = {'jack': 4098, 'sape': 4139}
+tel['gudio'] = 4127
+print(tel)
+del tel['sape']
+print(tel)
+
+print(dict([('sape', 4139), ('guido', 4127), ('jack', 4098)]))
+
+dict1 = {x: x ** 2 for x in (2, 4, 6)}
+print(dict1)
+
+print(dict(sape=4139, guido=4127, jack=4098))
+
+knights = {'gallahad': 'the pure', 'robin': 'the brave'}
+for k, v in knights.items():
+    print(k, v)
+
+questions = ['name', 'quest', 'favorite color', 'more1']
+answers = ['lancelot', 'the holy grail', 'blue', ]
+for q, a in zip(questions, answers):
+    print(q, a, end=" ^")
+
+print("xxx")
+for i in reversed(range(1, 10, 2)):
+    print(i)
