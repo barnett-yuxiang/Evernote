@@ -1,3 +1,6 @@
+from collections import deque
+
+
 def parrot(voltage, state="a stiff", action='voom', type='Norwegian Blue'):
     print("-- This parrot wouldn't ", action, end=' ###')
     print("if you put", voltage, "volts through it.")
@@ -22,3 +25,28 @@ def arithmetic_mean(*args):
 
 
 print(arithmetic_mean(1, 2, 3))
+
+a = [66.25, 333, 333, 1, 1234.5]
+print(a.count(333))
+a.insert(1, -2)
+a.append(333)
+print(a.count(333))
+a.index(333)
+a.remove(333)
+print(a)
+a.sort()
+print(a)
+
+stack = [3, 4, 5]
+stack.append(6)
+stack.append(7)
+print(stack)
+print(stack.pop())
+print(stack)
+
+queue = deque(["Eric", "John", "Michael"])
+queue.append("Terry")
+queue.append("Graham")
+print(queue.popleft())
+print(queue.pop())
+print(queue)
