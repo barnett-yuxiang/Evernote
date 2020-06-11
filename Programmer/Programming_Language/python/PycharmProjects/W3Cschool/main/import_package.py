@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Filename: test.py
+# Filename: import_package.py
 
 import support
 import sys
