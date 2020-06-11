@@ -45,6 +45,7 @@ class Student(Person):
         self.grade = g
 
     def speak(self):
+        Person.speak(self)
         print("%s 说: 我 %d 岁了，我在读 %d 年级" % (self.name, self.age, self.grade))
 
 
@@ -52,3 +53,20 @@ p = Person("yuxiang", 30, 88)
 p.speak()
 s = Student("yuqing", 1.1, 20, -1)
 s.speak()
+
+
+class JustCounter:
+    __secretCount = 0
+    publicCount = 0
+
+    def count(self):
+        self.__secretCount += 1
+        self.publicCount += 1
+
+
+counter = JustCounter()
+counter.count()
+counter.count()
+print(counter.publicCount)
+# print(counter.__secretCount)
+
