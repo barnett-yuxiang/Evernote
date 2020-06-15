@@ -24,5 +24,13 @@ HTraceStart.h
 
 /Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/node.h
 
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/thread.cpp
+iostream
+-
+fstream
+-
+thread.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/thread.h
+
 /Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/thread.h
 

@@ -7,6 +7,7 @@
 
 namespace Thread {
     void TraceStart(const char *name);
+    void flush_trace_data();
 }
 
 #endif //DEFINE_USAGE_THREAD_H
