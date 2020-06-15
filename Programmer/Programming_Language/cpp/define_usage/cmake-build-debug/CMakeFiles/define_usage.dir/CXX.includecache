@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/HTraceStart.cpp
+HTraceStart.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/HTraceStart.h
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/HTraceStart.h
+node.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/node.h
+thread.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/thread.h
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/main.cpp
+iostream
+-
+HTraceStart.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/HTraceStart.h
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/node.h
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/thread.h
+
