@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/perfetto_test/src/main.cpp
+iostream
+-
+trace_processor/trace_processor_context.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/perfetto_test/src/trace_processor/trace_processor_context.h
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/perfetto_test/src/trace_processor/storage/trace_storage.h
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/perfetto_test/src/trace_processor/trace_processor_context.cpp
+
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/perfetto_test/src/trace_processor/trace_processor_context.h
+memory
+-
+storage/trace_storage.h
+/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/perfetto_test/src/trace_processor/storage/trace_storage.h
+
