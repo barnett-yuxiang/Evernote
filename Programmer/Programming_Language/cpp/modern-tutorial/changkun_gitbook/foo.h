@@ -5,6 +5,10 @@
 #ifndef MODERN_TUTORIAL_CHANGKUN_GITBOOK_FOO_H_
 #define MODERN_TUTORIAL_CHANGKUN_GITBOOK_FOO_H_
 
+#define PRINT_MACRO_HELPER(x) #x
+#define PRINT_MACRO(x) #x"=" PRINT_MACRO_HELPER(x)
+#pragma message(PRINT_MACRO(__cplusplus))
+
 #ifdef __cplusplus__
 extern "C" {
 #endif

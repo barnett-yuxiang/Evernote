@@ -80,10 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/bar.h">
+			<Option target="modern_tutorial"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/base.h">
+			<Option target="modern_tutorial"/>
+		</Unit>
 		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/foo.c">
 			<Option target="modern_tutorial"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/foo.h">
+			<Option target="modern_tutorial"/>
+		</Unit>
+		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/magic.h">
 			<Option target="modern_tutorial"/>
 		</Unit>
 		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/main.cpp">
