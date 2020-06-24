@@ -3,4 +3,4 @@ project(modern_tutorial)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(modern_tutorial main.cpp)
+add_executable(modern_tutorial main.cpp changkun_gitbook/foo.h changkun_gitbook/foo.c)

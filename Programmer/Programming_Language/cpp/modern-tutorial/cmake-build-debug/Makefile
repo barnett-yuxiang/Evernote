@@ -123,6 +123,33 @@ modern_tutorial/fast:
 	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/build
 .PHONY : modern_tutorial/fast
 
+changkun_gitbook/foo.o: changkun_gitbook/foo.c.o
+
+.PHONY : changkun_gitbook/foo.o
+
+# target to build an object file
+changkun_gitbook/foo.c.o:
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/changkun_gitbook/foo.c.o
+.PHONY : changkun_gitbook/foo.c.o
+
+changkun_gitbook/foo.i: changkun_gitbook/foo.c.i
+
+.PHONY : changkun_gitbook/foo.i
+
+# target to preprocess a source file
+changkun_gitbook/foo.c.i:
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/changkun_gitbook/foo.c.i
+.PHONY : changkun_gitbook/foo.c.i
+
+changkun_gitbook/foo.s: changkun_gitbook/foo.c.s
+
+.PHONY : changkun_gitbook/foo.s
+
+# target to generate assembly for a file
+changkun_gitbook/foo.c.s:
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/changkun_gitbook/foo.c.s
+.PHONY : changkun_gitbook/foo.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... modern_tutorial"
+	@echo "... changkun_gitbook/foo.o"
+	@echo "... changkun_gitbook/foo.i"
+	@echo "... changkun_gitbook/foo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
