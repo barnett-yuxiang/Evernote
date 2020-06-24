@@ -8,3 +8,6 @@ CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.o: ../runtime/nanoscope_utils.h
 CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.o: ../runtime/runtime.cpp
 CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.o: ../runtime/runtime.h
 
+CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.o: ../runtime/thread.cpp
+CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.o: ../runtime/thread.h
+

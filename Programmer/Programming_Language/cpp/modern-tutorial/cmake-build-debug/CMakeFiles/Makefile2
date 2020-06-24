@@ -44,16 +44,16 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art
+CMAKE_SOURCE_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/aosp_10_art.dir/all
+all: CMakeFiles/modern_tutorial.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/aosp_10_art.dir/clean
+clean: CMakeFiles/modern_tutorial.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/aosp_10_art.dir
+# Target rules for target CMakeFiles/modern_tutorial.dir
 
 # All Build rule for target.
-CMakeFiles/aosp_10_art.dir/all:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/depend
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target aosp_10_art"
-.PHONY : CMakeFiles/aosp_10_art.dir/all
+CMakeFiles/modern_tutorial.dir/all:
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/depend
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target modern_tutorial"
+.PHONY : CMakeFiles/modern_tutorial.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/aosp_10_art.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/aosp_10_art.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/aosp_10_art.dir/rule
+CMakeFiles/modern_tutorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/modern_tutorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/modern_tutorial.dir/rule
 
 # Convenience name for target.
-aosp_10_art: CMakeFiles/aosp_10_art.dir/rule
+modern_tutorial: CMakeFiles/modern_tutorial.dir/rule
 
-.PHONY : aosp_10_art
+.PHONY : modern_tutorial
 
 # clean rule for target.
-CMakeFiles/aosp_10_art.dir/clean:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/clean
-.PHONY : CMakeFiles/aosp_10_art.dir/clean
+CMakeFiles/modern_tutorial.dir/clean:
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/clean
+.PHONY : CMakeFiles/modern_tutorial.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

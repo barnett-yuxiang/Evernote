@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/main.cpp" "/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles/aosp_10_art.dir/main.cpp.o"
   "/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/runtime.cpp" "/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.o"
+  "/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/thread.cpp" "/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

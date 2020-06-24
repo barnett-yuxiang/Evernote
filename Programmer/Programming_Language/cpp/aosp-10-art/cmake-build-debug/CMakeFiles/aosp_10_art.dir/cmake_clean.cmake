@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/aosp_10_art.dir/main.cpp.o"
   "CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.o"
+  "CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.o"
   "aosp_10_art"
   "aosp_10_art.pdb"
 )

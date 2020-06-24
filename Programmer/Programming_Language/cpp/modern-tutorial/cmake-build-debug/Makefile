@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art
+CMAKE_SOURCE_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named aosp_10_art
+# Target rules for targets named modern_tutorial
 
 # Build rule for target.
-aosp_10_art: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aosp_10_art
-.PHONY : aosp_10_art
+modern_tutorial: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 modern_tutorial
+.PHONY : modern_tutorial
 
 # fast build rule for target.
-aosp_10_art/fast:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/build
-.PHONY : aosp_10_art/fast
+modern_tutorial/fast:
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/build
+.PHONY : modern_tutorial/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,62 +147,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/modern_tutorial.dir/build.make CMakeFiles/modern_tutorial.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-runtime/runtime.o: runtime/runtime.cpp.o
-
-.PHONY : runtime/runtime.o
-
-# target to build an object file
-runtime/runtime.cpp.o:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.o
-.PHONY : runtime/runtime.cpp.o
-
-runtime/runtime.i: runtime/runtime.cpp.i
-
-.PHONY : runtime/runtime.i
-
-# target to preprocess a source file
-runtime/runtime.cpp.i:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.i
-.PHONY : runtime/runtime.cpp.i
-
-runtime/runtime.s: runtime/runtime.cpp.s
-
-.PHONY : runtime/runtime.s
-
-# target to generate assembly for a file
-runtime/runtime.cpp.s:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/runtime/runtime.cpp.s
-.PHONY : runtime/runtime.cpp.s
-
-runtime/thread.o: runtime/thread.cpp.o
-
-.PHONY : runtime/thread.o
-
-# target to build an object file
-runtime/thread.cpp.o:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.o
-.PHONY : runtime/thread.cpp.o
-
-runtime/thread.i: runtime/thread.cpp.i
-
-.PHONY : runtime/thread.i
-
-# target to preprocess a source file
-runtime/thread.cpp.i:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.i
-.PHONY : runtime/thread.cpp.i
-
-runtime/thread.s: runtime/thread.cpp.s
-
-.PHONY : runtime/thread.s
-
-# target to generate assembly for a file
-runtime/thread.cpp.s:
-	$(MAKE) -f CMakeFiles/aosp_10_art.dir/build.make CMakeFiles/aosp_10_art.dir/runtime/thread.cpp.s
-.PHONY : runtime/thread.cpp.s
 
 # Help Target
 help:
@@ -212,16 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... aosp_10_art"
+	@echo "... modern_tutorial"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... runtime/runtime.o"
-	@echo "... runtime/runtime.i"
-	@echo "... runtime/runtime.s"
-	@echo "... runtime/thread.o"
-	@echo "... runtime/thread.i"
-	@echo "... runtime/thread.s"
 .PHONY : help
 
 
