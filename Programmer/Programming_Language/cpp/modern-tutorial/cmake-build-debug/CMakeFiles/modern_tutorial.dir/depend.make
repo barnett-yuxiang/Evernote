@@ -5,5 +5,6 @@ CMakeFiles/modern_tutorial.dir/changkun_gitbook/foo.c.o: ../changkun_gitbook/foo
 CMakeFiles/modern_tutorial.dir/changkun_gitbook/foo.c.o: ../changkun_gitbook/foo.h
 
 CMakeFiles/modern_tutorial.dir/main.cpp.o: ../changkun_gitbook/bar.h
+CMakeFiles/modern_tutorial.dir/main.cpp.o: ../changkun_gitbook/smart_pointer_test.h
 CMakeFiles/modern_tutorial.dir/main.cpp.o: ../main.cpp
 

@@ -15,4 +15,16 @@ class SuckType;
 
 typedef SuckType<int, float> NewSuckType;
 
+void learn_lambda_func_1() {
+  int value_1 = 1;
+  auto copy_value_1 = [value_1] {
+    return value_1 + 1;
+  };
+  value_1 = 100;
+  auto store_value_1 = copy_value_1();
+
+  std::cout << "value_1:" << value_1 << std::endl;
+  std::cout << "store_value_1:" << store_value_1 << std::endl;
+}
+
 #endif //MODERN_TUTORIAL_CHANGKUN_GITBOOK_BAR_H_

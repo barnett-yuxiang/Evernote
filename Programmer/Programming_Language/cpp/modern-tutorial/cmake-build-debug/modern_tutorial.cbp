@@ -95,6 +95,9 @@
 		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/magic.h">
 			<Option target="modern_tutorial"/>
 		</Unit>
+		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/smart_pointer_test.h">
+			<Option target="modern_tutorial"/>
+		</Unit>
 		<Unit filename="/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/main.cpp">
 			<Option target="modern_tutorial"/>
 		</Unit>

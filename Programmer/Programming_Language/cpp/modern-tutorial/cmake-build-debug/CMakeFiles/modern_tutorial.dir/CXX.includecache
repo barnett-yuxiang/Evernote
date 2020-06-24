@@ -8,6 +8,12 @@
 
 /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/bar.h
 
+/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/smart_pointer_test.h
+iostream
+-
+memory
+-
+
 /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/main.cpp
 iostream
 -
@@ -17,4 +23,6 @@ vector
 -
 changkun_gitbook/bar.h
 /Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/bar.h
+changkun_gitbook/smart_pointer_test.h
+/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/changkun_gitbook/smart_pointer_test.h
 

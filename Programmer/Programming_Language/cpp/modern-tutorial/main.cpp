@@ -5,6 +5,7 @@
 #include <vector>
 
 #include "changkun_gitbook/bar.h"
+#include "changkun_gitbook/smart_pointer_test.h"
 
 int main() {
   std::cout << "Hello, World!" << std::endl;
@@ -39,6 +40,10 @@ int main() {
   A a2{1, 3.14};
 
   std::cout << typeid(a1).name() << "  " << typeid(a2).name() << std::endl;
+
+  learn_lambda_func_1();
+
+  test();
 
   return 0;
 }
