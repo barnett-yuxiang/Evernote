@@ -1,0 +1,38 @@
+// 指定使用哪个版本的语法,需要在第一行指定
+syntax = "proto3";
+
+package example;
+
+// 指定 java_package, 不指定就使用 package.生成的类会放到该package下
+option java_package = "com.example.example";
+
+// 生成的类名
+option java_outer_classname = "MQMessageProtos";
+
+message MQMessage {
+  // required 修饰的字段必须提供,否则 build 会抛 RuntimeException, parse 会抛 IOException. 后续扩展时 required 字段不可修改
+
+  // 声明一个枚举类型
+  enum OperationType {
+    UPDATE = 0;
+    DELETE = 1;
+  }
+
+  // 声明一个枚举类型的字段,等号后面的数字是标识数字
+  OperationType operationType = 1;
+
+  // 声明一个 string 类型的字段
+  string name = 2;
+
+  // 声明一个 Item 的 List
+  repeated Item items = 3;
+
+}
+
+message Item {
+  // 声明一个 string 类型的字段
+  string key = 1;
+
+  // 声明一个 map 类型字段
+  map<string, string> fields = 2;
+}
