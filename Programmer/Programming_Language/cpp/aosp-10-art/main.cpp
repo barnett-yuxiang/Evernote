@@ -19,5 +19,10 @@ int main() {
   art::Runtime runtime;
   runtime.SetTargetSdkVersion(29);
 
+  int64_t array[40000];
+  int64_t *trace_data_ptr = array;
+  std::cout << sizeof array << std::endl;
+  std::cout << sizeof(trace_data_ptr) << std::endl;
+
   return 0;
 }

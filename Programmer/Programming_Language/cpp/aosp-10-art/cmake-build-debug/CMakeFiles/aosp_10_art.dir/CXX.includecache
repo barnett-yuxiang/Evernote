@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/thread.cpp
+/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/main.cpp
 iostream
 -
-thread.h
-/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/thread.h
+thread
+-
+runtime/runtime.h
+/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/runtime.h
 
-/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/thread.h
-string
+/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/aosp-10-art/runtime/runtime.h
+cstdint
 -
 
