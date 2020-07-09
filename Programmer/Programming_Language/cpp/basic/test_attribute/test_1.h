@@ -36,13 +36,14 @@ struct __attribute__ ((aligned(2))) sc8 {
   char b[];
 };
 
-void test1() {
+void test() {
   char a;
   char *b;
   char c[10];
   printf("%ld\n", sizeof(a));
   printf("%ld\n", sizeof(b));
   printf("%ld\n", sizeof(c));
+  printf("%ld\n", sizeof(void *));
   printf("sc1: sizeof-char*  = %ld\n", sizeof(struct sc1));
   printf("sc3: packed sizeof-char*  = %ld\n", sizeof(struct sc3));
   printf("sc5: aligned 4 sizeof-char*  = %ld\n", sizeof(struct sc5));
