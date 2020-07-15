@@ -16,9 +16,17 @@ int main() {
     }
   });
 
+  std::atomic<bool> thread_ready(false);
+  std::thread t2([&thread_ready] {
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+    thread_ready = true;
+    std::cout << "android::base::SetProperty(...) " << thread_ready << std::endl;
+  });
+
   // Makes the main thread wait for the new thread to finish execution, therefore blocks its own execution.
   t1.join();
   threadObj.join();
+  t2.join();
 
   return 0;
 }
