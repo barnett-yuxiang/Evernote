@@ -10,8 +10,10 @@ int main() {
   std::thread t1(task, "Hello");
 
   std::thread threadObj([] {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++) {
+      std::this_thread::sleep_for(std::chrono::milliseconds(100));
       std::cout << "Display Thread Executing [" << std::this_thread::get_id() << "]" << std::endl;
+    }
   });
 
   // Makes the main thread wait for the new thread to finish execution, therefore blocks its own execution.
