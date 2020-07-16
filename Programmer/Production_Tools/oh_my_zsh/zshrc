@@ -113,14 +113,14 @@ alias python3='/usr/bin/python3.7'
 alias st-systrace='python $ANDROID_HOME/platform-tools/systrace/systrace.py'
 
 alias update-gitconfig-github='git config --global user.name "Kamakura.Yx" && git config --global user.email yuxiang204@yeah.net'
-alias update-gitconfig-bytedance='git config --global user.name "yuli.kamakura" && git config --global user.email yuli.kamakura@bytedance.com'
+alias update-gitconfig-bytedance='git config --global user.name "于礼" && git config --global user.email yuli.kamakura@bytedance.com'
 
 # Install JDK
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$JAVA_HOME/bin:$PATH
 
 # Install Android
-export ANDROID_HOME=$HOME/repo_tools/Android/Sdk
+export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH
 
 # Install Flutter
