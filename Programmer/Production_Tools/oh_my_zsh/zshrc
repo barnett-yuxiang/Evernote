@@ -114,6 +114,7 @@ alias st-systrace='python $ANDROID_HOME/platform-tools/systrace/systrace.py'
 
 alias update-gitconfig-github='git config --global user.name "Kamakura.Yx" && git config --global user.email yuxiang204@yeah.net'
 alias update-gitconfig-bytedance='git config --global user.name "于礼" && git config --global user.email yuli.kamakura@bytedance.com'
+alias update-gitconfig-editor-vim='git config --global core.editor "vim"'
 
 # Install JDK
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
