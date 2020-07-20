@@ -4,7 +4,6 @@
 int main() {
   std::cout << "Hello, World!" << std::endl;
 
-  art::ArenaObject arena_object = 101;
 
   return 0;
 }
