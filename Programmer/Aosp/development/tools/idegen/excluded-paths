@@ -66,3 +66,26 @@ layoutlib
 # Exclude all prebuilts jars.
 ^prebuilts/.*\.jar$
 
+#
+# Config by Yu.Xiang
+#
+^bootable
+^cts
+^developers
+^development
+^device
+^docs
+^external
+.*/tests/.*
+^ndk
+^pdk
+^platform_testing
+^sdk
+^test
+^toolchain
+^tools
+^vendor
+
+#
+# End
+#
