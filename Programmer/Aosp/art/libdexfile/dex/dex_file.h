@@ -10,7 +10,9 @@
 namespace art {
 
 class DexFile {
+ public:
 
+  // Raw header_item.
   struct Header {
     uint8_t magic_[8] = {};
   };
