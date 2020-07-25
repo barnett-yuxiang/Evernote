@@ -1,3 +1,0 @@
-/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/bytedance/Projects/Evernote/Programmer/Programming_Language/cpp/define_usage/cmake-build-debug/CMakeFiles/define_usage.dir

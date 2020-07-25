@@ -1,3 +1,0 @@
-/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/bytedance/repo_projects/Evernote/Programmer/Programming_Language/cpp/modern-tutorial/cmake-build-debug/CMakeFiles/modern_tutorial.dir
