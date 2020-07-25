@@ -1,0 +1,50 @@
+1199013455052:POP
+1199013455781:POP
+1199013477968:void com.android.internal.os.RuntimeInit$Arguments.<init>(java.lang.String[])
+1199013486197:void java.lang.Object.<init>()
+1199013486197:POP
+1199013494479:void com.android.internal.os.RuntimeInit$Arguments.parseArgs(java.lang.String[])
+1199013495625:boolean java.lang.String.startsWith(java.lang.String)
+1199013496041:boolean java.lang.String.startsWith(java.lang.String, int)
+1199013496250:POP
+1199013496406:POP
+1199013497395:POP
+1199013498645:POP
+1199013508854:void android.os.Trace.traceEnd(long)
+1199013509218:boolean android.os.Trace.isTagEnabled(long)
+1199013509583:POP
+1199013509583:POP
+1199013509791:java.lang.Runnable com.android.internal.os.RuntimeInit.findStaticMain(java.lang.String, java.lang.String[], java.lang.ClassLoader)
+1199013514479:java.lang.Class java.lang.Class.forName(java.lang.String, boolean, java.lang.ClassLoader)
+1199013516979:java.lang.BootClassLoader java.lang.BootClassLoader.getInstance()
+1199013523645:POP
+1199013524531:java.lang.Class java.lang.Class.classForName(java.lang.String, boolean, java.lang.ClassLoader)
+1199013708437:POP
+1199013708750:POP
+1199013757395:java.lang.reflect.Method java.lang.Class.getMethod(java.lang.String, java.lang.Class[])
+1199013759635:java.lang.reflect.Method java.lang.Class.getMethod(java.lang.String, java.lang.Class[], boolean)
+1199013785000:java.lang.reflect.Method java.lang.Class.getPublicMethodRecursive(java.lang.String, java.lang.Class[])
+1199013794739:java.lang.reflect.Method java.lang.Class.getDeclaredMethodInternal(java.lang.String, java.lang.Class[])
+1199015400104:POP
+1199015467239:boolean java.lang.reflect.Modifier.isPublic(int)
+1199015467291:POP
+1199015467864:POP
+1199015474479:int java.lang.reflect.Executable.getAccessFlags()
+1199015474895:POP
+1199015475781:boolean java.lang.reflect.Modifier.isPublic(int)
+1199015475781:POP
+1199015475937:POP
+1199015476197:POP
+1199015480572:int java.lang.reflect.Method.getModifiers()
+1199015481875:int java.lang.reflect.Executable.getModifiersInternal()
+1199015490260:POP
+1199015491718:POP
+1199015491770:boolean java.lang.reflect.Modifier.isStatic(int)
+1199015492031:POP
+1199015492239:boolean java.lang.reflect.Modifier.isPublic(int)
+1199015492239:POP
+1199015502708:void com.android.internal.os.RuntimeInit$MethodAndArgsCaller.<init>(java.lang.reflect.Method, java.lang.String[])
+1199015505572:void java.lang.Object.<init>()
+1199015505625:POP
+1199015516041:POP
+1199015517812:POP
