@@ -3,4 +3,4 @@ project(ring_buffer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ring_buffer main.cpp ringbuffer.h)
+add_executable(ring_buffer main.cpp RingBuffer.h)
