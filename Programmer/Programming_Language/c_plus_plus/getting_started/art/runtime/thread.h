@@ -21,12 +21,23 @@ class Thread final {
 
   Thread() : trace_data_ptr(nullptr), trace_data(nullptr), trace_data_cnt(TraceDataCapacity::kSmall) {}
 
-  void Flush() {
+  void Flush() const {
     if (trace_data_ptr != nullptr) {
       std::cout << "Flushing Start ...\n";
       int64_t *ptr = trace_data;
       while (ptr < trace_data_ptr) {
         std::cout << *ptr++ << std::endl;
+      }
+      std::cout << "Flushing Finish...\n";
+    }
+  }
+
+  void FlushV2() const {
+    if (trace_data_ptr != nullptr) {
+      std::cout << "Flushing Start ...\n";
+      int64_t *ptr = trace_data;
+      for (int i = 0; i < TraceDataCapacity::kSmall; i++) {
+        std::cout << *(ptr + i) << std::endl;
       }
       std::cout << "Flushing Finish...\n";
     }
@@ -43,7 +54,9 @@ class Thread final {
   }
 
   void TraceStart(int64_t a) {
-    *trace_data_ptr++ = a;
+    if (trace_data_ptr != nullptr) {
+      *trace_data_ptr++ = a;
+    }
   }
 
   void TraceEnd() {
