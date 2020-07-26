@@ -9,27 +9,11 @@ int main() {
 
   art::Thread mainThread{};
 
-  // Tracing
-  mainThread.trace_data = new int64_t[mainThread.trace_data_cnt];
-  mainThread.trace_data_ptr = mainThread.trace_data;
+  mainThread.StartTracing();
 
-  // Trace Start 1 2 3
-  *mainThread.trace_data_ptr++ = 101;
-  *mainThread.trace_data_ptr++ = 0;
+  mainThread.Flush();
 
-  *mainThread.trace_data_ptr++ = 102;
-  *mainThread.trace_data_ptr++ = 0;
-
-  *mainThread.trace_data_ptr++ = 103;
-  *mainThread.trace_data_ptr++ = 0;
-
-  // Flush
-  cout << "Flushing Start...\n";
-  int64_t *ptr = mainThread.trace_data;
-  while (ptr < mainThread.trace_data_ptr) {
-    cout << *ptr++ << endl;
-  }
-  cout << "Flushing Success...\n";
+  mainThread.StopTracing();
 
   return 0;
 }
