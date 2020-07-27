@@ -55,13 +55,21 @@ class Thread final {
 
   void TraceStart(int64_t a) {
     if (trace_data_ptr != nullptr) {
-      *trace_data_ptr++ = a;
+      *trace_data_ptr = a;
+      trace_data_ptr++;
+      if (trace_data_ptr - trace_data >= kSmall) {
+        trace_data_ptr = trace_data;
+      }
     }
   }
 
   void TraceEnd() {
     if (trace_data_ptr != nullptr) {
-      *trace_data_ptr++ = 0;
+      *trace_data_ptr = 0;
+      trace_data_ptr++;
+      if (trace_data_ptr - trace_data >= kSmall) {
+        trace_data_ptr = trace_data;
+      }
     }
   }
 };

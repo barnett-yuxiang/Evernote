@@ -20,7 +20,7 @@ int main() {
   mainThread.TraceEnd();
   mainThread.TraceEnd();
 
-  mainThread.FlushV2();
+  mainThread.Flush();
 
   cout << mainThread.trace_data << endl;
   cout << mainThread.trace_data_ptr << endl;
