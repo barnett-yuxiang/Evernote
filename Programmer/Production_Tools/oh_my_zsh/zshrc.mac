@@ -113,6 +113,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias python3='/usr/bin/python3.7'
+
 alias st-systrace='python $ANDROID_HOME/platform-tools/systrace/systrace.py'
 
 alias update-gitconfig-github='git config --global user.name "Kamakura.Yx" && git config --global user.email yuxiang204@yeah.net'
