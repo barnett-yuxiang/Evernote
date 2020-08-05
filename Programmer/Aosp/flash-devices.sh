@@ -11,5 +11,5 @@ sleep 5s
 echo -e "Start fastboot flashall -w"
 fastboot flashall -w
 
-echo -e "\n\nDone"
+echo -e "\e[1;33m Done."
 
