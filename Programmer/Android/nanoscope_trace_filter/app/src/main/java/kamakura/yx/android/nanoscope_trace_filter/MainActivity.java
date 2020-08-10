@@ -8,6 +8,7 @@ import com.google.android.material.snackbar.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.os.Trace;
 import android.view.View;
 
 import android.view.Menu;
@@ -17,8 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Trace.beginSection("MainActivity onCreate");
         super.onCreate(savedInstanceState);
+        Trace.beginSection("MainActivity setContentView");
         setContentView(R.layout.activity_main);
+        Trace.endSection();
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -26,10 +30,13 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Trace.beginSection("MainActivity onClick");
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                Trace.endSection();
             }
         });
+        Trace.endSection();
     }
 
     @Override
