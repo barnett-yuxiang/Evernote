@@ -3,4 +3,4 @@ project(pointer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(pointer main.cpp)
+add_executable(pointer main.cpp runtime/thread.h)
