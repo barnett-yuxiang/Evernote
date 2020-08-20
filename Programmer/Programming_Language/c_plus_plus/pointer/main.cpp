@@ -7,5 +7,11 @@ int main() {
 
   std::cout << sizeof(art::Thread::tls_ptr_sized_values);
 
+  uint32_t checksum_ = 123;
+  uint32_t *checksum_ptr;
+  std::cout << sizeof(*checksum_ptr) << std::endl;
+  std::cout << sizeof(checksum_ptr) << std::endl;
+  std::cout << sizeof(checksum_) << std::endl;
+
   return 0;
 }
