@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 
 using std::cout;
 using std::endl;
@@ -52,6 +53,25 @@ int main() {
   cout << IfNanoscopeTrace(st6) << endl;
   cout << IfNanoscopeTrace(st7) << endl;
   cout << IfNanoscopeTrace(st8) << endl;
+
+  //////////////////////////
+  char str1[15];
+  char str2[15];
+  int ret;
+
+  strcpy(str1, "android.bytedance");
+  strcpy(str2, "com.android.");
+
+  ret = strncmp(str1, str2, 12);
+  if (ret < 0) {
+    printf("str1 小于 str2\n");
+  } else if (ret > 0) {
+    printf("str2 小于 str1\n");
+  } else {
+    printf("str1 等于 str2\n");
+  }
+
+  cout << str1 << endl;
 
   return 0;
 }
