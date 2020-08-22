@@ -73,19 +73,15 @@ layoutlib
 ^cts
 ^developers
 ^development
-^device
 ^docs
 ^external
-.*/tests/.*
-^ndk
+^kernel
 ^pdk
-^platform_testing
+^prebuilt
 ^sdk
 ^test
 ^toolchain
 ^tools
-^vendor
-
 #
 # End
 #
