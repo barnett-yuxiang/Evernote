@@ -1,6 +1,7 @@
 #include <iostream>
 
 #include "runtime/thread.h"
+#include "dex_file.h"
 
 int main() {
   std::cout << "Hello, World!" << std::endl;
@@ -12,6 +13,7 @@ int main() {
   std::cout << sizeof(*checksum_ptr) << std::endl;
   std::cout << sizeof(checksum_ptr) << std::endl;
   std::cout << sizeof(checksum_) << std::endl;
+  std::cout << sizeof(Header) << std::endl;
 
   return 0;
 }
