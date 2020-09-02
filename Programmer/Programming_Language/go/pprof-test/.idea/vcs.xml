@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../../../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/fatih/color" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/felixge/httpsnoop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gorilla/handlers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/gorilla/websocket" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/jessevdk/go-flags" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/mkevac/debugcharts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/shirou/gopsutil" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/uber/go-torch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/github.com/uber/go-torch/FlameGraph" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/golang.org/x/sys" vcs="Git" />
+  </component>
+</project>
