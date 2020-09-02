@@ -130,24 +130,19 @@ export PATH=$JAVA_HOME/bin:$PATH
 # Install Android
 #
 export ANDROID_HOME=$HOME/repo_tools/Android/sdk
-export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH
+export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools
 
 
 #
 # Install Flutter
 #
-export PATH=$HOME/repo_tools/flutter/bin:$PATH
+export PATH=$PATH:$HOME/repo_tools/flutter/bin
 
-#
-# Install Aosp
-# repo is in depot_tools
-#
-# export PATH=$HOME/Aosp/bin:$PATH
 
 #
 # Install depot_tools
 #
-export PATH=$HOME/repo_tools/depot_tools:$PATH
+export PATH=$PATH:$HOME/repo_tools/depot_tools
 
 #
 # Install cmake 
@@ -155,16 +150,21 @@ export PATH=$HOME/repo_tools/depot_tools:$PATH
 # export PATH=/Applications/CMake.app/Contents/bin:$PATH
 
 #
-# Install Go 1.14.6
+# Install Go 1.15
 #
 export PATH=$PATH:$HOME/repo_tools/go/bin
+
+#
+# Install FlameGraph
+#
+export PATH=$PATH:$HOME/repo_tools/FlameGraph
 
 #
 # Config pip
 # Use get-pip.py install pip and pip3, run python get-pip.py and python3 get-pip.py
 # python and python3 is in /usr/bin/
 #
-# export PATH=$HOME/Library/Python/3.7/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 #
 # Install $HOME/bin, Top PATH
