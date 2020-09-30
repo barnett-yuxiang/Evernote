@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.6)
+project(yuli-frameworks)
+add_subdirectory(core/libcutils/libcutils-arm-android)
+add_subdirectory(core/libmeminfo/libmeminfo-arm-android)
+add_subdirectory(core/libmemtrack/libmemtrack-arm-android)
+add_subdirectory(core/libutils/libutils-arm-android)
+add_subdirectory(core/libutils/libutilscallstack-arm-android)
