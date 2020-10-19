@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.6)
+project(yuli-art-x86)
+
+add_subdirectory(base/core/jni/libandroid_runtime-x86-android)
+add_subdirectory(base/libs/hwui/libhwui-x86-android)
+add_subdirectory(native/libs/binder/libbinder-x86-android)
+add_subdirectory(native/libs/gui/libgui-x86-android)
+add_subdirectory(native/libs/renderengine/librenderengine-x86-android)
