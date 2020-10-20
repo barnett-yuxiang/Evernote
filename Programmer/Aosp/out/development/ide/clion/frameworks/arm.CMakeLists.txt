@@ -1,4 +1,0 @@
-cmake_minimum_required(VERSION 3.6)
-project(yuli-frameworks)
-add_subdirectory(base/core/jni/libandroid_runtime-arm-android)
-add_subdirectory(base/libs/hwui/libhwui-arm-android)
