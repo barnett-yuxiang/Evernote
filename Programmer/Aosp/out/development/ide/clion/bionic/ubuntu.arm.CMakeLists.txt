@@ -1,12 +1,11 @@
 cmake_minimum_required(VERSION 3.6)
-project(yuli-art-x86)
+project(yuli-bionic-arm)
 
 add_subdirectory(libc/libc_bionic-arm-android)
 add_subdirectory(libc/libc_pthread-arm-android)
 add_subdirectory(libc/libstdc++-arm-android)
 add_subdirectory(libc/malloc_debug/libc_malloc_debug-arm-android)
 add_subdirectory(libc/malloc_debug/libc_malloc_debug_backtrace-arm-android)
-add_subdirectory(libc/malloc_hooks/libc_malloc_hooks-x86-android)
 add_subdirectory(libc/malloc_hooks/libc_malloc_hooks-arm-android)
 add_subdirectory(libdl/libdl_android-arm-android)
 add_subdirectory(libdl/libdl_static-arm-android)

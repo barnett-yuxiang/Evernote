@@ -1,8 +1,11 @@
 cmake_minimum_required(VERSION 3.6)
-project(yuli-art-x86)
+project(yuli-frameworks-arm)
 
 add_subdirectory(base/core/jni/libandroid_runtime-arm-android)
 add_subdirectory(base/libs/hwui/libhwui-arm-android)
+add_subdirectory(native/cmds/atrace/atrace-arm64-android)
+add_subdirectory(native/cmds/installd/installd-arm64-android)
+add_subdirectory(native/cmds/servicemanager/servicemanager-arm64-android)
 add_subdirectory(native/libs/binder/libbinder-arm-android)
 add_subdirectory(native/libs/gui/libgui-arm-android)
 add_subdirectory(native/libs/renderengine/librenderengine-arm-android)
