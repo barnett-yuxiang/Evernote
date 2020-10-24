@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.bytedance.platform.tracer.HawTracer;
+import com.bytedance.platform.tracer.enhance.FF;
+
 import kamakura.yx.ea.MainApplication;
 import kamakura.yx.ea.R;
 
@@ -17,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "onCreate");
         setContentView(R.layout.activity_main);
         getWindow().getDecorView().postDelayed(
-                () -> Log.w(TAG, "Report app time duration: " + (System.currentTimeMillis() - MainApplication.APP_START_TIME)),
+                () -> {
+                    HawTracer.i("i compute time duration");
+                    Log.w(TAG, "Report app time duration: " + (System.currentTimeMillis() - MainApplication.APP_START_TIME));
+                    HawTracer.i("o compute time duration");
+                },
                 2000
         );
     }
@@ -26,5 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         Log.i(TAG, "onResume");
+        FF ff = new FF();
+        ff.b(1024);
     }
 }
