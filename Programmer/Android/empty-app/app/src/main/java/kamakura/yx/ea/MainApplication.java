@@ -4,6 +4,9 @@ import android.app.Application;
 import android.content.Context;
 import android.util.Log;
 
+import com.alibaba.AlibabaSDK;
+import com.tencent.TencentSDK;
+
 public class MainApplication extends Application {
     private static final String TAG = "MainApplication";
 
@@ -19,5 +22,7 @@ public class MainApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Log.i(TAG, "onCreate");
+        AlibabaSDK.init();
+        TencentSDK.init();
     }
 }
