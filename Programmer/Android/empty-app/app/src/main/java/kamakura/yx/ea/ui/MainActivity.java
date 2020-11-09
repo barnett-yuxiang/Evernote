@@ -8,6 +8,7 @@ import android.util.Log;
 import com.bytedance.platform.tracer.HawTracer;
 import com.bytedance.platform.tracer.enhance.FF;
 
+import com.meituan.Pay;
 import kamakura.yx.ea.MainApplication;
 import kamakura.yx.ea.R;
 
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getWindow().getDecorView().postDelayed(
                 () -> {
+                    Pay.execute();
                     HawTracer.i("i compute time duration");
                     Log.w(TAG, "Report app time duration: " + (System.currentTimeMillis() - MainApplication.APP_START_TIME));
                     HawTracer.i("o compute time duration");
