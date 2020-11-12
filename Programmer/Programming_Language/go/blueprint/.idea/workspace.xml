@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b5c2ebac-6f22-4700-8ee0-570d56024859" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/blueprint.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aSoruceFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aSoruceFile.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nanoscope/nanoscope_defect_detector.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nanoscope/nanoscope_defect_detector_new.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../packageNotUnderscore.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/pprof-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/cpu_profile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/hello-world.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pprof-test/nano_data_new.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stdIN.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stdOUT.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/repo_tools/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1kBzUOS1mkS1Q0uEp6APKQscGO4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="blueprint" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5c2ebac-6f22-4700-8ee0-570d56024859" name="Default Changelist" comment="" />
+      <created>1605188787204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605188787204</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="338" key="#Go_Modules" timestamp="1605188850740">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="640" y="338" key="#Go_Modules/0.23.1680.949@0.23.1680.949" timestamp="1605188850740" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1605189397081">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1605189397081" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1605189397081">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1605189397081" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1605189397080">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1605189397080" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1605189397081">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1605189397081" />
+    <state x="512" y="207" key="RollbackChangesDialog" timestamp="1605189374649">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="512" y="207" key="RollbackChangesDialog/0.23.1680.949@0.23.1680.949" timestamp="1605189374649" />
+  </component>
+</project>
