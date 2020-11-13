@@ -20,28 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5c2ebac-6f22-4700-8ee0-570d56024859" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blueprint.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aSoruceFile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aSoruceFile.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nanoscope/nanoscope_defect_detector.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nanoscope/nanoscope_defect_detector_new.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../packageNotUnderscore.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/pprof-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/cpu_profile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/hello-world.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pprof-test/nano_data_new.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stdIN.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../stdOUT.go" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/miscrofactory/miscrofactory.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/miscrofactory/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +56,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/miscrofactory" />
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
@@ -121,6 +109,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -130,22 +119,22 @@
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="640" y="338" key="#Go_Modules/0.23.1680.949@0.23.1680.949" timestamp="1605188850740" />
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1605189397081">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1605190166113">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1605189397081" />
-    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1605189397081">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1605190166113" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1605190166113">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1605189397081" />
-    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1605189397080">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1605190166113" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1605190166112">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1605189397080" />
-    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1605189397081">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1605190166112" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1605190166113">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1605189397081" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1605190166113" />
     <state x="512" y="207" key="RollbackChangesDialog" timestamp="1605189374649">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
