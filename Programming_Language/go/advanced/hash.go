@@ -16,8 +16,10 @@ func Test03() {
 
 	stack := Stack{Id: 1024}
 	pointer := &stack
-	sp := fmt.Sprintf("%p", pointer)
-	fmt.Println(reflect.TypeOf(sp))
+	sp1 := fmt.Sprintf("%p", pointer)
+	sp2 := fmt.Sprintf("%d", pointer)
+	fmt.Println(sp1, reflect.TypeOf(sp1))
+	fmt.Println(sp2, reflect.TypeOf(sp2))
 }
 
 func hash(s string) uint32 {

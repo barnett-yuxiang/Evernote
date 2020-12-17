@@ -7,5 +7,5 @@ func main() {
 		return a + b
 	})
 
-	Test03()
+	stringToByteArray()
 }
