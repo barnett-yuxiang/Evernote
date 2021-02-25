@@ -66,12 +66,13 @@ layoutlib
 # Exclude all prebuilts jars.
 ^prebuilts/.*\.jar$
 
-# Config by Yu.Xiang
+# Config by yuli.kamakura
 ^bootable
+^compatibility
 ^cts
 ^developers
 ^development
-^docs
+^device
 ^kernel
 ^pdk
 ^prebuilts
