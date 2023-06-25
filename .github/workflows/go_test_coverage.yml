@@ -1,0 +1,40 @@
+name: Go Test and Coverage
+
+on:
+  push:
+    branches:
+      - main  # 替换为你的默认分支名
+  pull_request:
+    branches:
+      - main  # 替换为你的默认分支名
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.16  # 根据你的需要设置 Go 的版本
+
+      - name: Change to project directory
+        run: cd DevHub/GoLand/
+
+      - name: Download dependencies
+        run: go mod download
+
+      - name: Run tests with coverage
+        run: go test -coverprofile=coverage.out ./...
+
+      - name: Generate coverage report
+        run: go tool cover -html=coverage.out -o coverage.html
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage-report
+          path: DevHub/GoLand/coverage.html
