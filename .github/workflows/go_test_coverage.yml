@@ -21,17 +21,17 @@ jobs:
         with:
           go-version: 1.16  # 根据你的需要设置 Go 的版本
 
-      - name: Change to project directory
-        run: cd DevHub/GoLand/
+      - name: Download dependencies and run tests
+        run: |
+          cd DevHub/GoLand/
+          go mod download
+          go test -coverprofile=coverage.out ./...
 
-      - name: Download dependencies
-        run: go mod download
-
-      - name: Run tests with coverage
-        run: go test -coverprofile=coverage.out ./...
-
-      - name: Generate coverage report
-        run: go tool cover -html=coverage.out -o coverage.html
+      - name: Generate and upload coverage report
+        run: |
+          cd DevHub/GoLand/
+          go tool cover -html=coverage.out -o coverage.html
+          echo "Coverage report generated"
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v2
