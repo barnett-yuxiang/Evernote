@@ -15,3 +15,9 @@
 | Artists | Da Vinci | ✅ | Postman for Dev |
 | Artists | Picasso |   | - |
 | Artists | Van Gogh |   | - |
+| Commodity | RayBan |   | - |
+| Commodity | - |   | - |
+| National City | kamakura | ✅ | Most Account |
+| National City | Hokkaido |   | - |
+| National City | Sapporo |   | - |
+
