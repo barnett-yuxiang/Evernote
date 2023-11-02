@@ -1,11 +1,17 @@
 # Evernote
 Personal developer notes, daily record some key points and bits and pieces.
 
-## DevHub/GoLand
+[![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
 
 [![codecov](https://codecov.io/gh/barnett-yuxiang/Evernote/branch/main/graph/badge.svg?token=<TOKEN>)](https://codecov.io/gh/barnett-yuxiang/Evernote)
 
-## DevHub/AndroidStudio
+## DevHub/CodeProjects
+
+
+## DevHub/DevEnvConfig
+
+
+## DevHub/ProjectLayout/AndroidStudio
 
 In this section, we will explore how to build a well-structured project directory in a project that uses Android Studio Flamingo, Gradle 5.x, AGP 3.x.x, and Kotlin.
 
