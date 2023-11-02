@@ -19,17 +19,17 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.16  # 根据你的需要设置 Go 的版本
+          go-version: 1.18  # 根据你的需要设置 Go 的版本
 
       - name: Download dependencies and run tests
         run: |
-          cd DevHub/GoLand/
+          cd DevHub/project_code/project_goland/
           go mod download
           go test -coverprofile=coverage.out ./...
 
       - name: Generate and upload coverage report
         run: |
-          cd DevHub/GoLand/
+          cd DevHub/project_code/project_goland/
           go tool cover -html=coverage.out -o coverage.html
           echo "Coverage report generated"
 
@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: coverage-report
-          path: DevHub/GoLand/coverage.html
+          path: DevHub/project_code/project_goland/coverage.html
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
