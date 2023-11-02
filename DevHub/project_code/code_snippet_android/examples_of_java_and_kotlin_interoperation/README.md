@@ -13,3 +13,7 @@
 6. 内联函数, `Inline Functions`;
 
 7. 协程: `Coroutines`;
+
+8. 函数式编程: 不可变 + 纯函数 + 高阶函数来简化代码和减少错误
+
+9. 密封类: `Sealed Classes`, 嵌套类, 委托类;
