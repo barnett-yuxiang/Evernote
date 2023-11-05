@@ -23,13 +23,13 @@ jobs:
 
       - name: Download dependencies and run tests
         run: |
-          cd DevHub/project_code/project_goland/
+          cd Kamakura/devhub/project_code/project_goland/
           go mod download
           go test -coverprofile=coverage.out ./...
 
       - name: Generate and upload coverage report
         run: |
-          cd DevHub/project_code/project_goland/
+          cd Kamakura/devhub/project_code/project_goland/
           go tool cover -html=coverage.out -o coverage.html
           echo "Coverage report generated"
 
@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: coverage-report
-          path: DevHub/project_code/project_goland/coverage.html
+          path: Kamakura/devhub/project_code/project_goland/coverage.html
 
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v3
