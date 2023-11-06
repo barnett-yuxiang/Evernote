@@ -1,0 +1,16 @@
+# Existing Go binary rule
+load("@io_bazel_rules_go//go:def.bzl", "go_binary")
+
+go_binary(
+    name = "hello",
+    srcs = ["main.go"],
+    importpath = "example/hello",
+)
+
+# BUILD.bazel
+load("@build_bazel_rules_nodejs//:index.bzl", "nodejs_binary")
+
+nodejs_binary(
+    name = "hello_world_js",
+    entry_point = "hello_world.js",
+)
