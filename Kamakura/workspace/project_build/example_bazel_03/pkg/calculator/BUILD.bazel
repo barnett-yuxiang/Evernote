@@ -1,0 +1,14 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_test")
+
+go_library(
+    name = "calculator",
+    srcs = ["calculator.go"],
+    importpath = "github.com/barnett-yuxiang/Evernote/Kamakura/workspace/project_build/example_bazel_03/pkg/calculator",
+    visibility = ["//visibility:public"],
+)
+
+go_test(
+    name = "calculator_test",
+    srcs = ["calculator_test.go"],
+    embed = [":calculator"],
+)
