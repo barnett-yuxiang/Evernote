@@ -2,7 +2,6 @@
 Personal developer notes, daily record some key points and bits and pieces.
 
 [![built with Codeium](https://codeium.com/badges/main)](https://codeium.com)
-
 [![codecov](https://codecov.io/gh/barnett-yuxiang/Evernote/branch/main/graph/badge.svg?token=<TOKEN>)](https://codecov.io/gh/barnett-yuxiang/Evernote)
 
 ## DevHub/CodeProjects
