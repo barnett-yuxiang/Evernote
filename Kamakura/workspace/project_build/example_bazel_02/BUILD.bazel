@@ -1,0 +1,29 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+# Define a Go library for the utility code you might have in util.go
+go_library(
+    name = "util_lib",
+    srcs = ["util.go"],
+    importpath = "github.com/barnett-yuxiang/Evernote/Kamakura/workspace/project_build/example_bazel_02/util",
+    visibility = ["//visibility:public"],
+)
+
+# Define a Go binary which depends on the utility library and the external UUID package
+go_binary(
+    name = "example_app",
+    srcs = ["main.go"],
+    importpath = "github.com/barnett-yuxiang/Evernote/Kamakura/workspace/project_build/example_bazel_02",
+    deps = [
+        ":util_lib",
+        "@com_github_google_uuid//:uuid",
+    ],
+)
+
+# Gazelle rule to generate BUILD files
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# "prefix" should match the module name in your go.mod
+gazelle(
+    name = "gazelle",
+    prefix = "github.com/barnett-yuxiang/Evernote/Kamakura/workspace/project_build/example_bazel_02",
+)
