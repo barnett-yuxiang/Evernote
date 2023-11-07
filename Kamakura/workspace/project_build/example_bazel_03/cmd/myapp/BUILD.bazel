@@ -1,0 +1,15 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_binary", "go_library")
+
+go_library(
+    name = "myapp_lib",
+    srcs = ["main.go"],
+    importpath = "github.com/barnett-yuxiang/Evernote/Kamakura/workspace/project_build/example_bazel_03/cmd/myapp",
+    visibility = ["//visibility:private"],
+    deps = ["//pkg/calculator"],
+)
+
+go_binary(
+    name = "myapp",
+    embed = [":myapp_lib"],
+    visibility = ["//visibility:public"],
+)

@@ -1,0 +1,6 @@
+.idea
+main
+bazel-bin
+bazel-example_bazel_03
+bazel-out
+bazel-testlogs

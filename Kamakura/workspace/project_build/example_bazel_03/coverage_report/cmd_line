@@ -1,0 +1,1 @@
+genhtml -o coverage_report bazel-out/darwin_arm64-fastbuild/testlogs/pkg/calculator/calculator_test/coverage.dat
