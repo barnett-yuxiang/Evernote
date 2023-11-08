@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733574660579",
+    "project_id": "codelab-contentrecommend-4fb85",
+    "storage_bucket": "codelab-contentrecommend-4fb85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733574660579:android:1916bd115c2cdaeac9a0d6",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelabs.recommendations"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9OQPTtbn6z1n62K4S0o4SYxfCfEIiUGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
