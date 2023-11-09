@@ -12,6 +12,10 @@ func GenerateUUID() string {
 	return uuid.String()
 }
 
+// main is the entry point of the Go program.
+//
+// It does not take any parameters.
+// It does not have a return type.
 func main() {
 	fmt.Println(GenerateUUID())
 }
