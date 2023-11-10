@@ -58,6 +58,22 @@ Understanding when and how to hoist the state will allow you to create stateless
 
 - Use Material Design to build modern and intuitive user interfaces, using colors, shapes and typography.
 
+##### 3-1 More Kotlin fundamentals
+
+数十年来，编程人员设计了多种编程语言功能来帮助您编写更好的代码，例如使用更少的代码表达相同概念、通过抽象化表达复杂的想法、编写代码防止其他开发者不小心犯错等。Kotlin 语言也不例外，其中许多功能都旨在帮助开发者编写更具表现力的代码。
+
+作用域函数属于高阶函数: let(), apply(), 
+
+泛型支持将数据类型作为形参传递到类, 枚举类可以定义有限数量的可能值, 而数据类有助于为类自动生成一些有用的方法.
+
+了解了如何创建单例对象（仅限一个实例）\ 如何使其成为另一个类的伴生对象, 以及如何使用新的 get-only 属性和新的方法来扩展现有的类. 最后, 您看到了一些示例, 了解了作用域函数如何能够在访问属性和方法时提供更简洁的语法.
+
+了解如何将高阶函数与集合结合使用, forEach, map, filter, fold, groupBy, sortedBy...
+
+##### 3-2 Build a scrollable list
+
+
+##### 3-3 Build beautiful apps
 
 
 ### Android Basics in Kotlin
