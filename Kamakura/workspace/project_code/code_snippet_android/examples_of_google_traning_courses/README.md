@@ -72,8 +72,19 @@ Understanding when and how to hoist the state will allow you to create stateless
 
 ##### 3-2 Build a scrollable list
 
+- 使用 `Card` 可组合项创建列表项, 修改 `Card` 中包含的界面, 使用 `lazyColumn` 创建可滚动列表, 自定义构建列表
+
+- Android 8.0 系统支持了自适应图标, 意味着应用图标由两个图层组成: 前景图层和背景图层
+
+- Use Card composables to create list items
+
+- Modify the UI contained within a Card composable
+
+- Create a scrollable list using the LazyColumn composable
 
 ##### 3-3 Build beautiful apps
+
+
 
 
 ### Android Basics in Kotlin
