@@ -130,9 +130,31 @@ Material Theme Builder `=>` Color.kt, Theme.kt, Shape.kt, Type.kt
 
 ## Kotlin language training
 
+> For developers interested in learning Kotlin.
 
 ### Kotlin bootcamp for programmers
 
+Kotlin variables are not nullable by default. Use ? to make variables nullable
+
+Secondary constructors
+
+要获取数据对象的属性并将其分配给变量，您可以一次分配一个变量。相反，您可以创建变量，每个属性对应一个变量，并将数据对象分配给一组变量。Kotlin 将属性值放入每个变量中。这称为 解构，是一种有用的简写。
+
+扩展函数只能访问它们所扩展的类的公共 API。private无法访问的变量。
+
+扩展函数非常强大，Kotlin 标准库大部分都是作为扩展函数实现的。
+
+val 和 var 关于变量的值。val 保护变量值不被更改
+
+in 将和类型与泛型一起使用 out 可以提供更好的类型检查，以限制传入类或从类返回的类型。
+
+泛型类型仅在编译时由 Kotlin 使用。这可以让编译器确保您安全地执行所有操作。到运行时，所有泛型类型都会被删除，因此会出现有关检查已删除类型的早期错误消息。
+
+泛型类型通常仅在编译时可用，并被实际类型替换。要在运行时之前保持泛型类型可用，请声明该函数inline并将类型设置为reified.
+
+注解是将元数据附加到代码的一种方式，并不是 Kotlin 特有的东西。
+
+SAM（单一抽象方法）的基础知识。您可以使用以下模式通过一行代码实例化、覆盖和调用 `SAM：Class.singleAbstractMethod { lambda_of_override }`
 
 ### Kotlin for Java developers
 
@@ -154,7 +176,6 @@ Top-level and extension functions and properties
 
 Scope functions: let, apply, with, run, also. [Download the scope functions cheat sheet from](https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326)
 
-
 @JvmStatic 注解用于指示 Kotlin 编译器生成带注解的成员或方法的静态版本。
 
 StringExtensions 和 @JvmName
@@ -163,9 +184,9 @@ User class and @JvmOverloads
 
 User and @JvmName
 
-
 ## For Android Java developers
 
+> Refer here for Android training content for Java developers.
 
 ### Android Room with a View - Java
 
