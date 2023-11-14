@@ -1,8 +1,12 @@
-## Traning Courses
+# Traning Courses
+
+> Whether a new developer, just new to Android, or an experienced professional, grow your skills with training created by Google's Android development experts. Then get certified as an Android developer to grow your career.
+
+## For beginners
 
 ### Android Basics with Compose
 
-#### Unit 1
+#### Unit 1 Your fist Android app
 
 - Jetpack Compose 是用于构建 Android 界面的新款工具包。它使用更少的代码、强大的工具和直观的 Kotlin API，可以帮助您简化并加快 Android 界面开发
 
@@ -84,8 +88,64 @@ Understanding when and how to hoist the state will allow you to create stateless
 
 ##### 3-3 Build beautiful apps
 
+Material Theme Builder `=>` Color.kt, Theme.kt, Shape.kt, Type.kt
 
+> 回顾 remember() 和 mutableStateOf()：
+> 使用 `mutableStateOf()` 函数，以便 `Compose` 观察状态值发生的更改，并触发重组来更新界面。使用 `remember()` 函数封装 `mutableStateOf()` 函数调用，以在初始组合期间将值存储在组合中，并在重组期间返回存储的值。
+
+#### Unit 4: Navigation and app architecture
+
+
+#### Unit 5: Connect to the internet
+
+
+#### Unit 6: Data persistence
+
+
+
+#### Unit 7: WorkManager
+
+
+#### Unit 8: Views and Compose
 
 
 ### Android Basics in Kotlin
 
+
+
+## For experienced Android developers
+
+
+### Jetpack Compose for Android developers
+
+
+### Modern Android app architecture
+
+
+### Accessibility
+
+
+### Kotlin coroutines
+
+
+## Kotlin language training
+
+
+### Kotlin bootcamp for programmers
+
+
+### Kotlin for Java developers
+
+
+## For Android Java developers
+
+
+### Android Room with a View - Java
+
+
+### Background work with WorkManager - Java
+
+
+## Certification and degree programs
+
+> Showcase your skills with a Google-certified credential.
