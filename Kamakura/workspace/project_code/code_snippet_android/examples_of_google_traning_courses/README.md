@@ -136,6 +136,33 @@ Material Theme Builder `=>` Color.kt, Theme.kt, Shape.kt, Type.kt
 
 ### Kotlin for Java developers
 
+Declaring nullability, val, var and data classes
+
+Default arguments, named arguments
+
+Object initialization, companion object and singletons
+
+Handling nullability
+
+String templates
+
+Operations on collections
+
+Properties and backing properties
+
+Top-level and extension functions and properties
+
+Scope functions: let, apply, with, run, also. [Download the scope functions cheat sheet from](https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326)
+
+
+@JvmStatic 注解用于指示 Kotlin 编译器生成带注解的成员或方法的静态版本。
+
+StringExtensions 和 @JvmName
+
+User class and @JvmOverloads
+
+User and @JvmName
+
 
 ## For Android Java developers
 
