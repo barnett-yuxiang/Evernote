@@ -190,8 +190,48 @@ User and @JvmName
 
 ### Android Room with a View - Java
 
+> Design and construct an app using Architecture Components, including Room, ViewModel, and LiveData.
+
+Architecture components help you structure your app in a way that is robust, testable, and maintainable with less boilerplate code. 
+
+Don't keep a reference to a context that has a shorter lifecycle than your ViewModel! Examples are:
+- Activity
+- Fragment
+- View
 
 ### Background work with WorkManager - Java
+
+> Learn how to use WorkManager, a compatible, flexible and simple library for deferrable background work in your app.
+
+**WorkManager**
+
+benefits:
+- Support for both asynchronous one-off and periodic tasks
+- Support for constraints such as network conditions, storage space, and charging status
+- Chaining of complex work requests, including running work in parallel
+- Output from one work request used as input for the next
+- Handles API level compatibility back to API level 14 (see note)
+- Works with or without Google Play services
+- Follows system health best practices
+- LiveData support to easily display work request state in UI
+
+WorkManager sits on top of a few APIs such as JobScheduler and AlarmManager. 
+
+good use:
+- Uploading logs
+- Applying filters to images and saving the image
+- Periodically syncing local data with the network
+
+**Learn:**
+Adding WorkManager to your project
+Scheduling a simple task
+Input and output parameters
+Chaining work
+Unique work
+Displaying work status in the UI
+Cancelling work
+Work constraints
+
 
 
 ## Certification and degree programs
