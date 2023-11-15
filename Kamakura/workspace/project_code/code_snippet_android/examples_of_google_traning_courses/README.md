@@ -232,6 +232,14 @@ Displaying work status in the UI
 Cancelling work
 Work constraints
 
+
+**Article**
+
+The WorkManager API is the recommended replacement for all previous Android background scheduling APIs, including FirebaseJobDispatcher, GcmNetworkManager, and Job Scheduler.
+
+
+
+
 ## Certification and degree programs
 
 > Showcase your skills with a Google-certified credential.
