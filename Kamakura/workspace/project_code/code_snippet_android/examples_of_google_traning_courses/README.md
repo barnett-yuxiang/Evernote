@@ -232,8 +232,6 @@ Displaying work status in the UI
 Cancelling work
 Work constraints
 
-
-
 ## Certification and degree programs
 
 > Showcase your skills with a Google-certified credential.
