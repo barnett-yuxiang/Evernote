@@ -1,8 +1,12 @@
-## Traning Courses
+# Traning Courses
+
+> Whether a new developer, just new to Android, or an experienced professional, grow your skills with training created by Google's Android development experts. Then get certified as an Android developer to grow your career.
+
+## For beginners
 
 ### Android Basics with Compose
 
-#### Unit 1
+#### Unit 1 Your fist Android app
 
 - Jetpack Compose 是用于构建 Android 界面的新款工具包。它使用更少的代码、强大的工具和直观的 Kotlin API，可以帮助您简化并加快 Android 界面开发
 
@@ -84,8 +88,158 @@ Understanding when and how to hoist the state will allow you to create stateless
 
 ##### 3-3 Build beautiful apps
 
+Material Theme Builder `=>` Color.kt, Theme.kt, Shape.kt, Type.kt
 
+> 回顾 remember() 和 mutableStateOf()：
+> 使用 `mutableStateOf()` 函数，以便 `Compose` 观察状态值发生的更改，并触发重组来更新界面。使用 `remember()` 函数封装 `mutableStateOf()` 函数调用，以在初始组合期间将值存储在组合中，并在重组期间返回存储的值。
+
+#### Unit 4: Navigation and app architecture
+
+
+#### Unit 5: Connect to the internet
+
+
+#### Unit 6: Data persistence
+
+
+
+#### Unit 7: WorkManager
+
+
+#### Unit 8: Views and Compose
 
 
 ### Android Basics in Kotlin
 
+
+
+## For experienced Android developers
+
+
+### Jetpack Compose for Android developers
+
+
+### Modern Android app architecture
+
+
+### Accessibility
+
+
+### Kotlin coroutines
+
+
+## Kotlin language training
+
+> For developers interested in learning Kotlin.
+
+### Kotlin bootcamp for programmers
+
+Kotlin variables are not nullable by default. Use ? to make variables nullable
+
+Secondary constructors
+
+要获取数据对象的属性并将其分配给变量，您可以一次分配一个变量。相反，您可以创建变量，每个属性对应一个变量，并将数据对象分配给一组变量。Kotlin 将属性值放入每个变量中。这称为 解构，是一种有用的简写。
+
+扩展函数只能访问它们所扩展的类的公共 API。private无法访问的变量。
+
+扩展函数非常强大，Kotlin 标准库大部分都是作为扩展函数实现的。
+
+val 和 var 关于变量的值。val 保护变量值不被更改
+
+in 将和类型与泛型一起使用 out 可以提供更好的类型检查，以限制传入类或从类返回的类型。
+
+泛型类型仅在编译时由 Kotlin 使用。这可以让编译器确保您安全地执行所有操作。到运行时，所有泛型类型都会被删除，因此会出现有关检查已删除类型的早期错误消息。
+
+泛型类型通常仅在编译时可用，并被实际类型替换。要在运行时之前保持泛型类型可用，请声明该函数inline并将类型设置为reified.
+
+注解是将元数据附加到代码的一种方式，并不是 Kotlin 特有的东西。
+
+SAM（单一抽象方法）的基础知识。您可以使用以下模式通过一行代码实例化、覆盖和调用 `SAM：Class.singleAbstractMethod { lambda_of_override }`
+
+### Kotlin for Java developers
+
+Declaring nullability, val, var and data classes
+
+Default arguments, named arguments
+
+Object initialization, companion object and singletons
+
+Handling nullability
+
+String templates
+
+Operations on collections
+
+Properties and backing properties
+
+Top-level and extension functions and properties
+
+Scope functions: let, apply, with, run, also. [Download the scope functions cheat sheet from](https://medium.com/androiddevelopers/kotlin-standard-functions-cheat-sheet-27f032dd4326)
+
+@JvmStatic 注解用于指示 Kotlin 编译器生成带注解的成员或方法的静态版本。
+
+StringExtensions 和 @JvmName
+
+User class and @JvmOverloads
+
+User and @JvmName
+
+## For Android Java developers
+
+> Refer here for Android training content for Java developers.
+
+### Android Room with a View - Java
+
+> Design and construct an app using Architecture Components, including Room, ViewModel, and LiveData.
+
+Architecture components help you structure your app in a way that is robust, testable, and maintainable with less boilerplate code. 
+
+Don't keep a reference to a context that has a shorter lifecycle than your ViewModel! Examples are:
+- Activity
+- Fragment
+- View
+
+### Background work with WorkManager - Java
+
+> Learn how to use WorkManager, a compatible, flexible and simple library for deferrable background work in your app.
+
+**WorkManager**
+
+benefits:
+- Support for both asynchronous one-off and periodic tasks
+- Support for constraints such as network conditions, storage space, and charging status
+- Chaining of complex work requests, including running work in parallel
+- Output from one work request used as input for the next
+- Handles API level compatibility back to API level 14 (see note)
+- Works with or without Google Play services
+- Follows system health best practices
+- LiveData support to easily display work request state in UI
+
+WorkManager sits on top of a few APIs such as JobScheduler and AlarmManager. 
+
+good use:
+- Uploading logs
+- Applying filters to images and saving the image
+- Periodically syncing local data with the network
+
+**Learn:**
+Adding WorkManager to your project
+Scheduling a simple task
+Input and output parameters
+Chaining work
+Unique work
+Displaying work status in the UI
+Cancelling work
+Work constraints
+
+
+**Article**
+
+The WorkManager API is the recommended replacement for all previous Android background scheduling APIs, including FirebaseJobDispatcher, GcmNetworkManager, and Job Scheduler.
+
+
+
+
+## Certification and degree programs
+
+> Showcase your skills with a Google-certified credential.
