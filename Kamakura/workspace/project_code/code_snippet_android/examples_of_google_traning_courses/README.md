@@ -115,17 +115,25 @@ Material Theme Builder `=>` Color.kt, Theme.kt, Shape.kt, Type.kt
 
 ## For experienced Android developers
 
+> Dive deeper into more advanced topics in Modern Android Development. These resources assume that you have existing knowledge of how to build Android apps.
 
 ### Jetpack Compose for Android developers
+
 
 
 ### Modern Android app architecture
 
 
+
 ### Accessibility
 
 
+
+
 ### Kotlin coroutines
+
+> Use coroutines to simplify task management for commons use cases like making network calls and accessing local data.
+
 
 
 ## Kotlin language training
@@ -232,13 +240,9 @@ Displaying work status in the UI
 Cancelling work
 Work constraints
 
-
 **Article**
 
 The WorkManager API is the recommended replacement for all previous Android background scheduling APIs, including FirebaseJobDispatcher, GcmNetworkManager, and Job Scheduler.
-
-
-
 
 ## Certification and degree programs
 
