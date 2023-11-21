@@ -127,14 +127,68 @@ Material Theme Builder `=>` Color.kt, Theme.kt, Shape.kt, Type.kt
 
 ### Accessibility
 
+> Learn the accessibility principles that make a big difference to your users, including color contrast, touch target size, and content labeling.
 
+[Overview Accessibility in Android](https://youtu.be/uG1v_7KA37E)
+Learn how users with disabilities can modify the default configurations of their Android device to make the device more functional for them.
 
+影响人们使用 Android 设备的常见障碍包括失明或弱视、失聪或听力受损、运动技能受限、认知障碍和色盲，而且这些只是其中的部分障碍。
+
+`Accessibility Scanner` is a tool created by Google that suggests accessibility improvements for Android apps—such as enlarging small touch targets, increasing contrast, and providing content descriptions—so that individuals with accessibility needs can use your app more easily.
+
+![Example Image](./29debb90665c4fcc_1920.png)
 
 ### Kotlin coroutines
 
 > Use coroutines to simplify task management for commons use cases like making network calls and accessing local data.
 
+管理后台线程的推荐方法，可通过减少回调需求来简化代码。
 
+```kotlin
+// Async callbacks
+networkRequest { result ->
+   // Successful network request
+   databaseSave(result) { rows ->
+     // Result saved
+   }
+}
+```
+
+Kotlin 协程使您能够将基于回调的代码转换为顺序代码。两者所做的事情完全相同：等待长时间运行的任务获得结果，然后继续执行。不过，两者的代码看起来却截然不同。
+
+```kotlin
+// Slow request with coroutines
+@UiThread
+suspend fun makeNetworkRequest() {
+    // slowFetch is another suspend function so instead of
+    // blocking the main thread  makeNetworkRequest will `suspend` until the result is
+    // ready
+    val result = slowFetch()
+    // continue to execute after the result is ready
+    show(result)
+}
+
+// slowFetch is main-safe using coroutines
+suspend fun slowFetch(): SlowResult { ... }
+```
+
+CoroutineScope: 在 Android 上，在一些情况下，例如当用户离开 Activity 或 Fragment 时，您可以使用作用域取消所有正在运行的协程。作用域还允许您指定默认调度程序。调度程序可以控制哪个线程运行协程。
+
+通常在 Dispatchers.Main（Android 上的主线程）上启动这类协程是正确的。在 Dispatchers.Main 上启动的协程在挂起期间不会阻塞主线程。
+
+虽然此协程在主线程上运行，但 delay 不会阻塞此线程 1 秒钟。相反，调度程序将安排协程在一秒钟内在下一个语句中恢复。
+
+在任何调度程序之间切换时，协程会使用 withContext。调用 withContext 会切换到仅适用于 lambda 的另一个调度程序，然后返回到使用该 lambda 的结果调用它的调度程序。
+
+Kotlin 协程默认提供三个调度程序：Main、IO 和 Default。IO 调度程序针对 IO 工作进行了优化，例如从网络或磁盘读取内容，而 Default 调度程序则针对 CPU 密集型任务进行了优化。
+
+Android 有多个选项用于处理可延迟的后台工作。 WorkManager 与协程集成。WorkManager 是一个兼容、灵活且简单的库，用于处理可延迟的后台工作。WorkManager 是 Android 中这些用例的推荐解决方案。
+
+WorkManager 属于 Android Jetpack 的一部分，是一种架构组件，用于处理既需要机会性执行，又需要有保证的执行的后台工作。机会性执行意味着 WorkManager 会尽快执行您的后台工作。有保证的执行意味着 WorkManager 会负责通过逻辑保障在各种情况下启动您的工作，即使用户离开您的应用也无妨。
+
+Learn to use WorkManager with coroutines to schedule asynchronous tasks that run even if the app exits or the device restarts.
+
+[A gardening app illustrating Android development best practices with migrating a View-based app to Jetpack Compose.](https://github.com/android/sunflower)
 
 ## Kotlin language training
 
